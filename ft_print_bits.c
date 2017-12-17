@@ -14,10 +14,8 @@
 
 void	ft_print_bits(unsigned char octet)
 {
-	int i;
 	int n;
 
-	i = 0;
 	n = 128;
 	while (n >= 1)
 	{
