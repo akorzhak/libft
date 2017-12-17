@@ -29,7 +29,7 @@ ft_itoa_base.o ft_split_white.o ft_print_bits.o ft_reverse_bits.o
 # macro INCLUDE, on which the .c files depend. 
 INCLUDE = libft.h
 
-.PHONY: all clean clean
+.PHONY: all clean fclean
 # a rule that applies to all files ending with the .o suffix. 
 # the .o file depends upon the .c version of the file and the INCLUDE.
 # automatic variables $<: the name of the prerequisite (a .c file)
